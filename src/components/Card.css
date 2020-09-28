@@ -1,0 +1,41 @@
+.card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  min-height: 400px;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 400px;
+  flex-flow: column;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 5, 2);
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale(1.07);
+}
+.card > img {
+  width: 100%;
+  max-height: 250px;
+  max-width: 250px;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+.card__info > h4 {
+  margin-left: 30px;
+}
+
+.card__info > h3 {
+  margin-left: 30px;
+  font-size: 100%;
+}
+.card > Button {
+  font-size: 0.4cm;
+  background-color: green;
+  font-style: normal;
+  font-weight: bold;
+  bottom: 0% !important;
+}
