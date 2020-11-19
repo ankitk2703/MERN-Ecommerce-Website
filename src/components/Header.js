@@ -4,8 +4,11 @@ import SearchIcon from '@material-ui/icons/Search';
 import amazonlogo from '../images/amazonlogo.jpg'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import { Link } from 'react-router-dom';
+import { useStateValue } from '../StateProvider'
 
 function Header() {
+    const [{ basket }, dispatch] = useStateValue()
+
     return (
         <div className="navTab">
             <Link to="/">
@@ -33,10 +36,10 @@ function Header() {
             <Link to="/checkout">
                 <div className="shoppingCart_logo">
                     <ShoppingCartIcon />
-                    <span>Cart</span>
+                    <span>{basket?.length}</span>
                 </div>
             </Link>
-            
+
         </div>
 
     )
