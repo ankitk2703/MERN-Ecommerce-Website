@@ -15,12 +15,12 @@ function Product() {
     return (
         <div className="product">
             <div className="product__rowOne">
-                <Card src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="359" />
-                <Card src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
-                <Card src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="359" />
-                <Card src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
-                <Card src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="359" />
-                <Card src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
+                <Card id="1234" src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="330" />
+                <Card id="12345" src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
+                <Card id="1234" src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="359" />
+                <Card id="12345" src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
+                <Card id="1234" src={productCurtain} title="Eyelet Door 7 ft Curtains (Aqua Blue) Set of 2" price="359" />
+                <Card id="12345" src={productCurtainTwo} title="Polyster Box Curtains Set of 2 (Black, 4 x 7)" price="339" />
 
 
             </div>
